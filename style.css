@@ -1,0 +1,141 @@
+body {
+  background-color: #efefef;
+  padding: 5%;
+}
+
+.container {
+  column-count: 2;
+  column-gap: 50px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  left: auto;
+  right: auto;
+  vertical-align: middle;
+  background: rgb(98, 185, 60);
+  background: linear-gradient(
+    90deg,
+    rgba(98, 185, 60, 0.6601015406162465) 3%,
+    rgba(101, 205, 111, 0.7945553221288515) 11%,
+    rgba(103, 205, 108, 0.7777485994397759) 20%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  height: 900px;
+  min-width: 100%;
+  text-align: center;
+  box-shadow: 0 1px 15px 1px lightblue;
+  border-radius: 15px;
+  position: relative;
+}
+.img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 120px;
+  transition: width 2s, height 2s;
+}
+h2 {
+  text-align: left;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+ul li {
+  font-family: tahoma, arial;
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: white;
+}
+.linkedin {
+  background-color: #4875b4;
+}
+.medium {
+  background-color: black;
+}
+
+i {
+  display: list-item;
+  list-style-position: inside;
+  text-align-last: initial;
+}
+ul {
+  position: relative;
+  max-width: 50%;
+}
+h3 {
+  text-align: left;
+  font-family: roboto, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  display: inline-block;
+}
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #24e6bb;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: 0.5s ease;
+  border-radius: 1%;
+}
+
+.container:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.gmail {
+  font-family: tahoma, arial;
+  text-align: center;
+  list-style: none;
+  line-height: 50px;
+  font-size: 30px;
+  margin: 10px 0;
+  border-radius: 10px;
+  color: white;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(252, 176, 69, 1) 100%
+  );
+  position: relative;
+  border-style: outset;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 50px;
+}
+.fab {
+  
+}
+.fas {
+ 
+  
+}
+.overlay ul {
+}
